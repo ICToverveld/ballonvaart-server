@@ -3,4 +3,4 @@ const controller = require("./controller");
 
 router.get("/", controller.list);
 
-module.export = router;
+module.exports = router;
